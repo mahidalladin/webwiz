@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+.logo-img{
+    width: 30%;
+    display: inline;
+}
+
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 1rem 2rem; /* 3 */   
+    font-family:"Oswald-SemiBold";  
+  }
+  
+  nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+  }
+  
+  nav li {
+    padding-left: 1rem; /* 7! */
+  }
+  nav a {
+    text-decoration: none;
+    color: #F1EFEF;
+  }
+  .navbar{
+    padding: 0 3% 0 0;
+  }
+
+.title-img{
+padding-top: 5%;
+width: 1300px;
+height: 700px;
+
+}
+.mid-left{
+    position: absolute;
+    color: #F1EFEF;
+    top: 20%;
+    left: 4%;
+    margin-top: 5%;
+    text-align: left;
+
+}
+h1{
+    text-align: center;
+}
+
+
+.btn {
+    transition-duration: 0.4s;
+    width: 200px;
+    height:75px;
+    margin:10% 1% 1% 10%;
+    padding: 0 0 0 0 ;
+    background-color: #F1EFEF;
+    color: black;
+    font-family: 'Teko';
+    font-size: larger;
+    border-radius: 12px;
+
+  }
+  
+.btn:hover {
+    background-color: #7D7C7C; /* Green */
+    color: white;
+  }
+
+.nav-item{
+    background-color: black;
+    color: white;
+    float: right;
+    padding: 0 0 0 0;
+    border: 0 0 0 0;
+    border-width: 0 0 0 0;
+
+}
+.nav-item:hover{
+    background-color: #EEEDED;
+    color: black;
+}
+
+button{
+    padding: 0 0 0 0;
+    border: 0 0 0 0;
+    border-width: 0 0 0 0;
+    border-radius: 12px;
+}
+#first{
+    margin-top: 5%;
+    text-align: center;
+}
+#second{
+    margin-top: 5%;
+    text-align: center;
+}
+#third{
+    margin-top: 5%;
+    text-align: center;
+}
